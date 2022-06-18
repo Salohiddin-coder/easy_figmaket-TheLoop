@@ -4,11 +4,138 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>7-dars</title>
+  <title>The Loop</title>
   <link rel="stylesheet" href="./css/main.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <h1 class="visually-hidden">This site for shopping clothes and shoes</h1>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="header__navbar menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Для мужчин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Для женщин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Для детей</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#"><img class="menu__logo" src="./images/logo.svg" alt="site logo" width="201" height="40"></a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Оплата</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Доставка</a>
+            </li>
+            <li class="menu__item">
+              <span class="menu__basket"><img class="menu__basket-img" src="./images/basket.svg" alt="a shopping basket" width="30" height="26"><img class="menu__basket-badge" src="./images/basket-badge.svg" alt="a badge that shows five number" width="46" height="17"></span>
+            </li>            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <strong class="hero__text">Зимняя распродажа</strong>
+            <h2 class="hero__info">СКИДКИ ДО 90%</h2>
+            <a class="hero__link" href="#">СМОТРЕТЬ МОДЕЛИ</a>
+          </div>
+
+          <div class="hero__element">
+            <del class="hero__price-deleted">9 900 ₽</del>
+            <ins class="hero__price">1 900 ₽</ins>
+          </div>
+
+          <ul class="hero__list">
+            <li class="hero__item"></li>
+            <li class="hero__item"></li>
+            <li class="hero__item"></li>
+            <li class="hero__item"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery">
+      <div class="container">
+        <div class="delivery__inner">
+          <h2 class="delivery__title">БЕСПЛАТНАЯ ДОСТАВКА <span class="delivery__title-text">ОТ 3000₽</span></h2>
+          <p class="delivery__info">Сделайте заказ и получите подарок!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection">
+      <div class="collection__wrapper">
+        <div class="collection__left-wrapper">
+          <div class="collection__left">
+            <h2 class="collection__title">МУЖСКАЯ <span class="collection__title-text">КОЛЛЕКЦИЯ</span></h2>
+            <p class="collection__info">Обувь, полуверы, костюмы</p>
+            <a class="collection__link" href="#"><img src="./images/right-arrow.svg" alt="a white arrow to right" width="20"></a>
+          </div>
+        </div>
+
+        <div class="collection__right-wrapper">
+          <div class="collection__right">
+            <h2 class="collection__title">ЖЕНСКАЯ <span class="collection__title-text">КОЛЛЕКЦИЯ</span></h2>
+            <p class="collection__info">Обувь, полуверы, костюмы</p>
+            <a class="collection__link" href="#"><img src="./images/right-arrow.svg" alt="a white arrow to right" width="20"></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <ul class="colection__list">
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+          <li class="collection__item"><p class="collection__item-text">ПЛАТЬЯ</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="new">
+      <div class="container">
+        <div class="new__inner">
+          <h2 class="new__title">Новые модели</h2>
+          <ul class="new__list">
+            <li class="new__item">
+              <p class="new__item-text">Коктейльное <br> платье</p>
+              <strong class="new__item-price">₽ 40 000</strong>
+            </li>
+            <li class="new__item">
+              <p class="new__item-text">Коктейльное <br> платье</p>
+              <strong class="new__item-price">₽ 40 000</strong>
+            </li>
+            <li class="new__item">
+              <p class="new__item-text">Коктейльное <br> платье</p>
+              <strong class="new__item-price">₽ 40 000</strong>
+            </li>
+            <li class="new__item">
+              <p class="new__item-text">Коктейльное <br> платье</p>
+              <strong class="new__item-price">₽ 40 000</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

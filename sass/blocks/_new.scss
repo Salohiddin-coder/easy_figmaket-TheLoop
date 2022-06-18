@@ -1,0 +1,56 @@
+.new__inner {
+  padding-top: 150px;
+}
+
+.new__title {
+  margin: 0;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #212121;
+}
+
+.new__list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 120px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.new__item {
+  margin-right: 30px;
+  padding: 258px 72px 25px 71px;
+  text-align: center;
+  background-image: url("../../images/a_girl-standing.png"), url("../../images/border-vector.svg"), 
+    url("../../images/border-vector-right-top.png"), url("../../images/border-top-right.svg"), 
+    url("../../images/border-bottom-right.svg"), url("../../images/border-bottom-left.svg");
+  background-repeat: no-repeat;
+  background-size: 205px 211px, 25px 25px, 25px 25px, 25px 25px, 25px 25px, 25px;
+  background-position: center 30px, left top, right top, right top, right bottom, left bottom;
+}
+
+.new__item:last-child {
+  margin-right: 0;
+}
+
+.new__item-text {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.new__item-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D7B399;
+}

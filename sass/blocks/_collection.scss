@@ -1,0 +1,86 @@
+.collection__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.collection__left-wrapper {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  background-color: #F9F6F1;
+}
+
+.collection__left {
+  width: 550px;
+  padding: 60px 16px 70px 16px;
+  background-image: url("../../images/a_man.png");
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: bottom right;
+}
+
+.collection__right-wrapper {
+  width: 100%;
+  background-color:#F4F4F4;
+  ;
+}
+
+.collection__right {
+  width: 550px;
+  padding: 60px 16px 70px 16px;
+  background-image: url("../../images/a_girl.png");
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: bottom right;
+}
+
+.collection__title{
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.collection__title-text {
+  font-weight: normal;
+}
+
+.collection__info {
+  margin: 0;
+  margin-bottom: 55px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.collection__link {
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #D7B399;
+}
+
+.colection__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #F4F4F4;
+}
+
+.collection__item {
+  padding: 186px 155px 24px 24px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  background-image: url("../../images/t-shirt.png");
+  background-repeat: no-repeat;
+  background-size: 188px 214px;
+  background-position: bottom right;
+}

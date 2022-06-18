@@ -390,6 +390,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -418,8 +419,330 @@ img {
 }
 
 .container {
-  width: 1380px;
+  width: 1130px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  background-color: #F9F6F1;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 50px 0;
+  list-style-type: none;
+}
+
+.menu__item {
+  margin-right: 35px;
+}
+
+.menu__item:nth-child(4) {
+  margin: 0 55px;
+}
+
+.menu__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.menu__basket-img {
+  margin-right: 15px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #F9F6F1;
+}
+
+.hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url("../../images/red-shoes.png");
+  background-repeat: no-repeat;
+  background-size: 556px 377px;
+  background-position: top right;
+}
+
+.hero__content {
+  margin-bottom: 250px;
+}
+
+.hero__text {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.hero__info {
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hero__link {
+  padding: 17px 30px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #D7B399;
+}
+
+.hero__element {
+  max-width: 556px;
+  width: 100%;
+  text-align: right;
+}
+
+.hero__price-deleted {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.hero__price {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  color: #D84033;
+  text-decoration: none;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero__item {
+  margin-right: 15px;
+  width: 40px;
+  height: 7px;
+  background-color: #CECECE;
+}
+
+.hero__item:nth-child(2) {
+  background-color: #D7B399;
+}
+
+.delivery {
+  background-color: #212121;
+}
+
+.delivery__inner {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.delivery__title {
+  margin: 0;
+  margin-bottom: 23px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.delivery__title-text {
+  font-weight: normal;
+}
+
+.delivery__info {
+  margin: 0;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.collection__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.collection__left-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  background-color: #F9F6F1;
+}
+
+.collection__left {
+  width: 550px;
+  padding: 60px 16px 70px 16px;
+  background-image: url("../../images/a_man.png");
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: bottom right;
+}
+
+.collection__right-wrapper {
+  width: 100%;
+  background-color: #F4F4F4;
+}
+
+.collection__right {
+  width: 550px;
+  padding: 60px 16px 70px 16px;
+  background-image: url("../../images/a_girl.png");
+  background-repeat: no-repeat;
+  background-size: 190px 171px;
+  background-position: bottom right;
+}
+
+.collection__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.collection__title-text {
+  font-weight: normal;
+}
+
+.collection__info {
+  margin: 0;
+  margin-bottom: 55px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.collection__link {
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #D7B399;
+}
+
+.colection__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #F4F4F4;
+}
+
+.collection__item {
+  padding: 186px 155px 24px 24px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  background-image: url("../../images/t-shirt.png");
+  background-repeat: no-repeat;
+  background-size: 188px 214px;
+  background-position: bottom right;
+}
+
+.new__inner {
+  padding-top: 150px;
+}
+
+.new__title {
+  margin: 0;
+  margin-bottom: 100px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #212121;
+}
+
+.new__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-bottom: 120px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.new__item {
+  margin-right: 30px;
+  padding: 258px 72px 25px 71px;
+  text-align: center;
+  background-image: url("../../images/a_girl-standing.png"), url("../../images/border-vector.svg"), url("../../images/border-vector-right-top.png"), url("../../images/border-top-right.svg"), url("../../images/border-bottom-right.svg"), url("../../images/border-bottom-left.svg");
+  background-repeat: no-repeat;
+  background-size: 205px 211px, 25px 25px, 25px 25px, 25px 25px, 25px 25px, 25px;
+  background-position: center 30px, left top, right top, right top, right bottom, left bottom;
+}
+
+.new__item:last-child {
+  margin-right: 0;
+}
+
+.new__item-text {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.new__item-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D7B399;
 }
 /*# sourceMappingURL=main.css.map */

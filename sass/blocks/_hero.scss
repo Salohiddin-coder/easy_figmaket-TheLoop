@@ -1,0 +1,88 @@
+.hero {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color:#F9F6F1;
+}
+
+.hero__inner {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../../images/red-shoes.png");
+  background-repeat: no-repeat;
+  background-size: 556px 377px;
+  background-position: top right;
+}
+
+.hero__content {
+  margin-bottom: 250px;
+}
+
+.hero__text {  
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.hero__info {
+  margin: 0;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hero__link {
+  padding: 17px 30px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #D7B399;
+}
+
+.hero__element {
+  max-width: 556px;
+  width: 100%;
+  text-align: right;
+}
+
+.hero__price-deleted {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.hero__price {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  letter-spacing: 0.02em;
+  color: #D84033;
+  text-decoration: none;
+}
+
+.hero__list {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero__item {
+  margin-right: 15px;
+  width: 40px;
+  height: 7px;
+  background-color: #CECECE;
+}
+
+.hero__item:nth-child(2) {
+  background-color: #D7B399;
+}
