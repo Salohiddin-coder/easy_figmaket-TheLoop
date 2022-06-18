@@ -1,5 +1,6 @@
 .new__inner {
-  padding-top: 150px;
+  padding: 150px 0;
+  text-align: center;
 }
 
 .new__title {
@@ -28,8 +29,8 @@
   padding: 258px 72px 25px 71px;
   text-align: center;
   background-image: url("../../images/a_girl-standing.png"), url("../../images/border-vector.svg"), 
-    url("../../images/border-vector-right-top.png"), url("../../images/border-top-right.svg"), 
-    url("../../images/border-bottom-right.svg"), url("../../images/border-bottom-left.svg");
+  url("../../images/border-vector-right-top.png"), url("../../images/border-top-right.svg"), 
+  url("../../images/border-bottom-right.svg"), url("../../images/border-bottom-left.svg");
   background-repeat: no-repeat;
   background-size: 205px 211px, 25px 25px, 25px 25px, 25px 25px, 25px 25px, 25px;
   background-position: center 30px, left top, right top, right top, right bottom, left bottom;
@@ -53,4 +54,14 @@
   font-size: 18px;
   line-height: 22px;
   color: #D7B399;
+}
+
+.new__link {
+  margin-right: 9px;
+  padding: 18px 30px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background-color: #D7B399;
+  text-decoration: none;
 }
