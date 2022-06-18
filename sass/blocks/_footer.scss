@@ -1,6 +1,20 @@
 .footer {
-  padding: 80px 0;
   background-color:#212121;
+}
+
+.footer__inner {
+  padding: 80px 0;
+}
+
+.footer__bottom {
+  background-color: #E5E5E5;
+  padding-top: 30px;
+  padding-bottom: 23px;
+}
+
+.footer__bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__list {
@@ -64,4 +78,11 @@
 
 .footer__sublogo {
   margin-right: 5px;
+}
+
+.footer__bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #212121;
 }
